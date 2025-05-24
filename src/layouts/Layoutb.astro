@@ -1,0 +1,27 @@
+---
+import Splashsc from "../components/Splashsc.astro";
+import Fondo from "../components/Fondo.astro";
+import Letras from "../components/Letras.astro";
+import Header from "../components/Header.astro";
+import Bodyb from "../components/Bodyb.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<html lang="es">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WoWAmigos</title>
+  </head>
+  <body class="relative min-h-screen flex flex-col justify-between items-center overflow-x-hidden bg-black text-white">
+    <Fondo />
+    <Splashsc />
+    <Letras />
+    <Header />
+    <main class="flex flex-col items-center justify-center flex-1 w-full z-10 px-4 md:px-8">
+      <Bodyb />
+      <div class="h-8 md:h-10 lg:h-12"></div>
+    </main>
+    <Footer />
+  </body>
+</html>
