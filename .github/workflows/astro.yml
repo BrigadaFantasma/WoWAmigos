@@ -1,0 +1,43 @@
+name: Deploy Astro to GitHub Pages
+
+on:
+  # Ejecutar el workflow al hacer push a la rama `main`
+  push:
+    branches: [ main ]
+  # Permitir ejecución manual desde la pestaña Actions
+  workflow_dispatch:
+
+# Permisos requeridos para la acción de despliegue
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clonar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar dependencias
+        run: npm install
+
+      - name: Construir el sitio
+        run: npm run build
+
+      - name: Subir artefactos para despliegue
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist # Directorio donde Astro genera el sitio
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Desplegar en GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
