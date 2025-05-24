@@ -7,13 +7,12 @@ Este sitio está diseñado para jugadores que buscan optimizar su rendimiento, d
 ## 🌟 **Lo que encontrarás en WoWAmigos**  
 - 🏹 **Guía de Clases** – Aprende todo sobre cada clase, sus especializaciones y estilos de juego.  
 - 📜 **Roles y Estrategias** – Descubre cómo dominar PvE y PvP con configuraciones efectivas.  
-- 🔮 **Mecánicas del Juego** – Explora talentos, habilidades y estadísticas clave para tu personaje.  
-- 💬 **Comunidad Activa** – Intercambia ideas, consejos y tácticas con otros jugadores apasionados.  
+- 🔮 **Mecánicas del Juego** – Explora talentos, habilidades y estadísticas clave para tu personaje.
 
 ## 🚀 **Cómo aprovechar el sitio**  
-1️⃣ **Accede a WoWAmigos** a través de **GitHub Pages**.  
-2️⃣ Explora las secciones y encuentra la información que necesitas para mejorar tu juego.  
-3️⃣ Comparte ideas y contribuciones para seguir expandiendo la comunidad.  
+1️⃣ **Accede a WoWAmigos** a través de **[GitHub Pages](https://brigadafantasma.github.io/WoWAmigos/)**.  
+2️⃣ Explora las secciones y encuentra la información que necesitas para mejorar tu juego (Actualmente en desarrollo).  
+3️⃣ Comparte ideas y contribuciones para seguir expandiendo la comunidad en nuestro **[Discord](https://discord.gg/SRHre6Whm4)**.  
 
 ## 🔧 **¿Quieres contribuir?**  
 Si deseas aportar contenido, mejorar guías o añadir nuevas funciones:  
