@@ -1,48 +1,32 @@
-# Astro Starter Kit: Basics
+# **WoWAmigos 🎮✨**  
+🏰 **Un portal creado por Brigada Fantasma para la comunidad de World of Warcraft**  
 
-```sh
-npm create astro@latest -- --template basics
-```
+Sumérgete en el mundo de Azeroth y perfecciona tu estrategia con guías detalladas sobre clases, especializaciones y roles.  
+Este sitio está diseñado para jugadores que buscan optimizar su rendimiento, descubrir mecánicas ocultas y compartir experiencias en la legendaria expansión *Mists of Pandaria*.  
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## 🌟 **Lo que encontrarás en WoWAmigos**  
+- 🏹 **Guía de Clases** – Aprende todo sobre cada clase, sus especializaciones y estilos de juego.  
+- 📜 **Roles y Estrategias** – Descubre cómo dominar PvE y PvP con configuraciones efectivas.  
+- 🔮 **Mecánicas del Juego** – Explora talentos, habilidades y estadísticas clave para tu personaje.  
+- 💬 **Comunidad Activa** – Intercambia ideas, consejos y tácticas con otros jugadores apasionados.  
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 🚀 **Cómo aprovechar el sitio**  
+1️⃣ **Accede a WoWAmigos** a través de **GitHub Pages**.  
+2️⃣ Explora las secciones y encuentra la información que necesitas para mejorar tu juego.  
+3️⃣ Comparte ideas y contribuciones para seguir expandiendo la comunidad.  
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## 🔧 **¿Quieres contribuir?**  
+Si deseas aportar contenido, mejorar guías o añadir nuevas funciones:  
+- 🔹 **Haz un fork del repositorio**.  
+- 🔹 **Modifica y optimiza la información**.  
+- 🔹 **Envía un pull request** con tus mejoras.  
 
-## 🚀 Project Structure
+Toda contribución es bienvenida. Juntos, hacemos crecer el conocimiento en la comunidad de *World of Warcraft*! ⚔️🔥  
 
-Inside of your Astro project, you'll see the following folders and files:
+## 📜 **Licencia**  
+Este proyecto está bajo la licencia **MIT**, lo que te permite **usar, modificar y compartir libremente** su contenido.  
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## 🦠 **Desarrollador Principal**  
+**Plaguenox** – 🦠 Maestro de código y arquitecto del proyecto.  
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## 🌍 **¡Nos vemos en Azeroth!** 🏹🔥  
