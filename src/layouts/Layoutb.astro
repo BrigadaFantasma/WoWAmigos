@@ -1,6 +1,5 @@
 ---
 import Splashsc from "../components/Splashsc.astro";
-import Fondo from "../components/Fondo.astro";
 import Letras from "../components/Letras.astro";
 import Header from "../components/Header.astro";
 import Bodyb from "../components/Bodyb.astro";
@@ -8,13 +7,15 @@ import Footer from "../components/Footer.astro";
 ---
 
 <html lang="es">
-    <head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>WoWAmigos</title>
   </head>
-  <body class="relative min-h-screen flex flex-col justify-between items-center overflow-x-hidden bg-black text-white">
-    <Fondo />
+  <body class="relative min-h-screen flex flex-col justify-between items-center overflow-x-hidden text-white">
+    <!-- Fondo animado global -->
+    <div class="fixed inset-0 -z-10 bg-gradient-to-br from-[#8B0000] via-[#B22222] via-40% via-[#1A1A1A] to-[#0D0D0D] animate-gradient-move"></div>
+
     <Splashsc />
     <Letras />
     <Header />
@@ -25,3 +26,16 @@ import Footer from "../components/Footer.astro";
     <Footer />
   </body>
 </html>
+
+<style>
+@keyframes gradient-move {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+.bg-gradient-to-br {
+  background: linear-gradient(135deg, #8B0000 0%, #B22222 35%, #1A1A1A 70%, #0D0D0D 100%);
+  background-size: 200% 200%;
+  animation: gradient-move 10s ease-in-out infinite;
+}
+</style>
